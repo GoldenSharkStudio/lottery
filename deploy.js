@@ -23,6 +23,8 @@ const deploy = async () => {
        gas: '1000000'
     });
 
+    console.log(interface);
+
     console.log('Contract deployed to', lottery.options.address);
 }
 
